@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { RxCross2 } from "react-icons/rx";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { FaHand } from "react-icons/fa6";
+import { PiHandWavingBold } from "react-icons/pi";
 
 
 
@@ -81,7 +81,7 @@ const SignModal = ({ closeModal, switchToLogin }) => {
 
         <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center text-gray-800">
           <span className="flex items-center justify-center gap-2">
-            <FaHand className="text-yellow-400 cursor-pointer rotate-[-35deg]" />
+            <PiHandWavingBold className="text-yellow-400 text-3xl rotate-[-20deg]" />
             Create an Account
           </span>
         </h2>
@@ -147,7 +147,7 @@ const SignModal = ({ closeModal, switchToLogin }) => {
             {errors.password && <p className="text-red-500 text-xs sm:text-sm mt-1">{errors.password}</p>}
           </div>
 
-          
+
 
 
           {/* Terms and Conditions */}

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { RxCross2 } from "react-icons/rx";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { FaHand } from "react-icons/fa6";
+import { PiHandWavingBold } from "react-icons/pi";
 
 
 
@@ -51,7 +51,7 @@ const LoginModal = ({ closeModal, switchToSignUp }) => {
         </button>
 
         <h2 className="text-2xl font-bold mb-6 text-center text-gray-800 flex items-center justify-center gap-2">
-          <FaHand className="text-yellow-400 cursor-pointer  rotate-[-35deg]" />
+          <PiHandWavingBold className="text-yellow-400 text-3xl rotate-[-20deg]" />
           Welcome Back!
         </h2>
 
